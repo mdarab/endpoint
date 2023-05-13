@@ -24,4 +24,48 @@ Params: context (view, embed, edit), page, per_page, search	(string), after, mod
 
 GET /wp/v2/posts/<id>
 
-
+# Update a Post
+  #آپدیت یک پست
+  
+  POST /wp/v2/posts/<id>
+  
+ # Delete a Post
+  #حذف یک پست
+  
+  DELETE /wp/v2/posts/<id>
+  
+  ------------------------------------------------
+  
+# List Post Revisions
+  # نمایش ویرایش های انجام شده برای یک پست
+  
+ GET /wp/v2/posts/<parent>/revisions
+  
+  -----------------------------------------------
+  
+  # List Categories
+  #نمایش دسته بندی ها
+  
+  GET /wp/v2/categories
+  
+  -----------------------------------------------
+  
+  # List Tags
+  #نمایش برچسب ها
+  
+  GET /wp/v2/tags
+  
+  ------------------------------------------------
+  
+  # List Pages
+  #نمایش برگه ها
+  
+  GET /wp/v2/pages
+  
+  -------------------------------------------------
+  
+  # List Page Revisions
+  #نمایش ویرایش های برگه 
+  
+  
+ 
