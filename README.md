@@ -17,6 +17,7 @@ Params: username (string), password (string)
 #نمایش پست ها
 
 GET /wp/v2/posts
+
 Params: context (view, embed, edit), page, per_page, search	(string), after, modified_after, author, author_exclude, before, modified_before, exclude, include, offset, order(asc, desc), orderby(author, date, id, include, modified, parent, relevance, slug, include_slugs, title), search_columns, slug, status, tax_relation, categories, categories_exclude, tags, tags_exclude, sticky
 
 # Create a Post
