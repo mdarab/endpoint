@@ -14,3 +14,8 @@ Params: username (string), password (string)
 
 --------------------------------------------------
 
+# User Registration
+
+POST: core.saadifoundation.ir/register
+
+Params: username (string), password (string), name (string), lastName (string)
