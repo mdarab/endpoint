@@ -16,12 +16,39 @@ Params: username (string), password (string)
 
 --------------------------------------------------
 
+# Logout
+#خروج کاربر
+
+POST: https://core.saadifoundation.ir/my-account/customer-logout
+
+Params: username (string)
+
+--------------------------------------------------
+
 # User Registration
 #ثبت نام کاربران
 
 POST: core.saadifoundation.ir/register
 
 Params: username (string), password (string), name (string), lastName (string), email(string), country(string), phone(Integer)
+
+--------------------------------------------------
+
+# My Account
+#حساب کاربری
+
+GET: core.saadifoundation.ir/my-account
+
+Params: username (string)
+
+--------------------------------------------------
+
+# Edit My Account
+#ویرایش اطلاعات کاربری
+
+PUT: core.saadifoundation.ir/my-account/edit-account/
+
+Params: PreviousPassword (string), Newpassword (string), name (string), lastName (string), email(string), country(string), phone(Integer)
 
 --------------------------------------------------
 
