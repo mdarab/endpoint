@@ -58,3 +58,24 @@ Params: PreviousPassword (string), NewPassword (string), name (string), lastName
 POST: https://core.saadifoundation.ir/my-account/lost-password/
 
 Params: username (string), email(string)
+
+--------------------------------------------------
+
+# Chat
+
+# Send Message
+#ارسال پیام
+
+POST: https://core.saadifoundation.ir/message
+
+Params: username (string), Message(string)
+
+--------
+
+# Recieve Message
+#دریافت پیام
+
+GET: https://core.saadifoundation.ir/message
+
+Params: username (string), Message(string)
+
