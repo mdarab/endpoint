@@ -16,6 +16,15 @@ Params: username (string), password (string)
 
 --------------------------------------------------
 
+# Logout
+#خروج کاربر
+
+POST: https://core.saadifoundation.ir/my-account/customer-logout
+
+Params: username (string)
+
+--------------------------------------------------
+
 # User Registration
 #ثبت نام کاربران
 
