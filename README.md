@@ -43,6 +43,15 @@ Params: username (string)
 
 --------------------------------------------------
 
+# Edit My Account
+#ویرایش اطلاعات کاربری
+
+PUT: core.saadifoundation.ir/my-account
+
+Params: PreviousPassword (string), Newpassword (string), name (string), lastName (string), email(string), country(string), phone(Integer)
+
+--------------------------------------------------
+
 # Forgot Password
 #فراموشی رمز عبور
 
