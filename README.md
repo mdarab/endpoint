@@ -52,6 +52,15 @@ Params: username (string), email (string)
 
 --------------------------------------------------
 
+# Send Welcome Email
+#ارسال ایمیل خوشامدگویی
+
+GET: core.saadifoundation.ir/welcome
+ 
+Params: email (string), subject (string), body (string)
+
+--------------------------------------------------
+
 # My Account
 #حساب کاربری
 
