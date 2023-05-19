@@ -48,7 +48,7 @@ Params: username (string)
 
 PUT: core.saadifoundation.ir/my-account/edit-account/
 
-Params: PreviousPassword (string), Newpassword (string), name (string), lastName (string), email(string), country(string), phone(Integer)
+Params: PreviousPassword (string), NewPassword (string), name (string), lastName (string), email(string), country(string), phone(Integer)
 
 --------------------------------------------------
 
