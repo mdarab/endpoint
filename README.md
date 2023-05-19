@@ -34,6 +34,15 @@ Params: username (string), password (string), name (string), lastName (string), 
 
 --------------------------------------------------
 
+# My Account
+#حساب کاربری
+
+GET: core.saadifoundation.ir/my-account
+
+Params: username (string)
+
+--------------------------------------------------
+
 # Forgot Password
 #فراموشی رمز عبور
 
