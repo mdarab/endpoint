@@ -34,6 +34,15 @@ Params: username (string), password (string), name (string), lastName (string), 
 
 --------------------------------------------------
 
+# Verify a User Registration
+#تایید ثبت نام کاربر
+
+DELETE: https://core.saadifoundation.ir/verify-registration
+
+Params: verificationId (string)
+
+--------------------------------------------------
+
 # My Account
 #حساب کاربری
 
@@ -87,4 +96,7 @@ Params: username (string), Message(string)
 DELETE: https://core.saadifoundation.ir/my-account/remove
 
 Params: username (string)
+
+
+
 
