@@ -34,6 +34,33 @@ Params: username (string), password (string), name (string), lastName (string), 
 
 --------------------------------------------------
 
+# Verify a User Registration
+#تایید ثبت نام کاربر
+
+POST: https://core.saadifoundation.ir/verify-registration
+
+Params: verificationId (string)
+
+--------------------------------------------------
+
+# Resend a User Registration Verification Email
+#ارسال مجدد ایمیل تایید
+
+PUT: https://core.saadifoundation.ir/verify-registration?username={username}&email={email}
+
+Params: username (string), email (string)
+
+--------------------------------------------------
+
+# Send Welcome Email
+#ارسال ایمیل خوشامدگویی
+
+GET: core.saadifoundation.ir/welcome
+ 
+Params: email (string), subject (string), body (string)
+
+--------------------------------------------------
+
 # My Account
 #حساب کاربری
 
@@ -87,4 +114,7 @@ Params: username (string), Message(string)
 DELETE: https://core.saadifoundation.ir/my-account/remove
 
 Params: username (string)
+
+
+
 
