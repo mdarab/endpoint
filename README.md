@@ -46,7 +46,7 @@ Params: username (string)
 # Edit My Account
 #ویرایش اطلاعات کاربری
 
-PUT: core.saadifoundation.ir/my-account
+PUT: core.saadifoundation.ir/my-account/edit-account/
 
 Params: PreviousPassword (string), Newpassword (string), name (string), lastName (string), email(string), country(string), phone(Integer)
 
