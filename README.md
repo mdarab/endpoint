@@ -37,9 +37,18 @@ Params: username (string), password (string), name (string), lastName (string), 
 # Verify a User Registration
 #تایید ثبت نام کاربر
 
-DELETE: https://core.saadifoundation.ir/verify-registration
+POST: https://core.saadifoundation.ir/verify-registration
 
 Params: verificationId (string)
+
+--------------------------------------------------
+
+# Resend a User Registration Verification Email
+#ارسال مجدد ایمیل تایید
+
+PUT: https://core.saadifoundation.ir/verify-registration?username={username}&email={email}
+
+Params: username (string), email (string)
 
 --------------------------------------------------
 
