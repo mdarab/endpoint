@@ -79,3 +79,12 @@ GET: https://core.saadifoundation.ir/message
 
 Params: username (string), Message(string)
 
+--------------------------------------------------
+
+# Delete User
+#حذف کاربر
+
+DELETE: https://core.saadifoundation.ir/my-account/remove
+
+Params: username (string)
+
