@@ -5,6 +5,8 @@
 
 GET: Core.saadifoundation.ir/login
 
+--------------------------------------------------
+
 # Send User Information
 #ارسال اطلاعات کاربر برای لاگین
 
@@ -15,7 +17,17 @@ Params: username (string), password (string)
 --------------------------------------------------
 
 # User Registration
+#ثبت نام کاربران
 
 POST: core.saadifoundation.ir/register
 
-Params: username (string), password (string), name (string), lastName (string)
+Params: username (string), password (string), name (string), lastName (string), email(string), country(string), phone(Integer)
+
+--------------------------------------------------
+
+# Forgot Password
+#فراموشی رمز عبور
+
+POST: https://core.saadifoundation.ir/my-account/lost-password/
+
+Params: username (string), email(string)
